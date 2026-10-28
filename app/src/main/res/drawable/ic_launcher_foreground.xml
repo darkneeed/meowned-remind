@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Drop shadow -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M31,39h46c3.3,0 6,2.7 6,6v26c0,3.3 -2.7,6 -6,6H31c-3.3,0 -6,-2.7 -6,-6V45c0,-3.3 2.7,-6 6,-6z" />
+    <!-- Main SMS chat bubble / envelope -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M30,37h48c3.3,0 6,2.7 6,6v26c0,3.3 -2.7,6 -6,6H30c-3.3,0 -6,-2.7 -6,-6V43c0,-3.3 2.7,-6 6,-6z" />
+    <!-- SMS Text Lines -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M35,46h24v3h-24zM35,53h16v3h-16z" />
+    <!-- Forwarding paper plane / arrow circle badge -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M68,58m-13,0a13,13 0,1 1,26 0a13,13 0,1 1,-26 0" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M68,58m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0" />
+    <!-- Forward Arrow / Paper Plane icon inside badge -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M63,53l13,5l-13,5l3,-5z" />
+</vector>
