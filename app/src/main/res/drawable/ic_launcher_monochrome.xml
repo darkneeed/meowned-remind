@@ -4,18 +4,55 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
+
+    <!-- Cat Silhouette -->
+    <!-- Ears -->
     <path
         android:fillColor="#FFFFFFFF"
-        android:pathData="M30,37h48c3.3,0 6,2.7 6,6v26c0,3.3 -2.7,6 -6,6H30c-3.3,0 -6,-2.7 -6,-6V43c0,-3.3 2.7,-6 6,-6z" />
+        android:pathData="M32,49 L29,29 C28.5,27 31,25.5 33,27 L46,41 Z" />
     <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M76,49 L79,29 C79.5,27 77,25.5 75,27 L62,41 Z" />
+    <!-- Head -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,39c-15,0 -26,9.5 -26,21.5c0,11 11,19.5 26,19.5s26,-8.5 26,-19.5c0,-12 -11,-21.5 -26,-21.5z" />
+
+    <!-- Inner ear cutout -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M34,46 L32,33 C31.5,31.5 33,31 34,32 L43,41 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M74,46 L76,33 C76.5,31.5 75,31 74,32 L65,41 Z" />
+
+    <!-- Eyes cutout -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M43,54m-4,0a4,4.5 0,1 1,8 0a4,4.5 0,1 1,-8 0" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M65,54m-4,0a4,4.5 0,1 1,8 0a4,4.5 0,1 1,-8 0" />
+
+    <!-- Cute Nose & Mouth -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M54,58.5 L51.5,56 C52.5,55 55.5,55 56.5,56 Z" />
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
         android:fillColor="#00000000"
-        android:strokeColor="#FF000000"
-        android:strokeWidth="2"
-        android:pathData="M35,47h22M35,54h14" />
+        android:pathData="M51,60.5 Q52.5,62.5 54,60.5 Q55.5,62.5 57,60.5" />
+
+    <!-- Forwarding SMS badge on bottom right -->
     <path
-        android:fillColor="#FF000000"
-        android:pathData="M68,58m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+        android:fillColor="#000000"
+        android:pathData="M72,69m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0" />
+    <!-- Paper plane / arrow in badge -->
     <path
         android:fillColor="#FFFFFFFF"
-        android:pathData="M63,53l13,5l-13,5l3,-5z" />
+        android:pathData="M67,64.5 L78,69 L67,73.5 L69.5,69 Z" />
+
 </vector>
