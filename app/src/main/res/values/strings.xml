@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">meowned ремайнд</string>
+    <string name="notification_channel_name">Служба пересылки SMS</string>
+    <string name="notification_channel_desc">Показывает статус активной службы пересылки SMS</string>
+    <string name="service_running_title">meowned ремайнд активен</string>
+    <string name="service_running_text">Пересылка входящих SMS включена</string>
+</resources>
